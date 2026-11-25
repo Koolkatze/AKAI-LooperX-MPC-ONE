@@ -1,0 +1,17 @@
+{
+  "name": "Looper",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxLp",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Looper",
+  "file32": "VST/looper-arm32.so",
+  "file64": "VST/looper-arm64.so",
+  "description": "16-slot guitar-pedal style looper synced to the MPC tempo and bars: record, overdub, undo, stop, fixed or free length, loops saved in the project and exportable as WAV.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

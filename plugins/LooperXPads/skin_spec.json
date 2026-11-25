@@ -1,0 +1,16 @@
+{
+  "momentary": [
+    "LOOP *",
+    "Learn",
+    "Stop All",
+    "Undo"
+  ],
+  "liveText": [
+    "Status",
+    "CC Ctrl"
+  ],
+  "steps": {
+    "Base Note": 128,
+    "Channel": 17
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Flanger",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxFl",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Modulation",
+  "file32": "VST/fx-flanger-arm32.so",
+  "file64": "VST/fx-flanger-arm64.so",
+  "description": "Stereo flanger with positive/negative feedback.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

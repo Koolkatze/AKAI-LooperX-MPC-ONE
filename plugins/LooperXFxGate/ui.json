@@ -1,0 +1,43 @@
+{
+  "kit": {
+    "theme": "mono",
+    "accent": "ffff6a1a"
+  },
+  "qlinkGroups": "rows",
+  "style": {
+    "background": "ff141417"
+  },
+  "pages": [
+    {
+      "name": "MAIN",
+      "controls": [
+        {
+          "param": "Thresh",
+          "widget": "knob"
+        },
+        {
+          "param": "Attack",
+          "widget": "knob"
+        },
+        {
+          "param": "Hold",
+          "widget": "knob"
+        },
+        {
+          "param": "Release",
+          "widget": "knob"
+        },
+        {
+          "param": "Range",
+          "widget": "knob"
+        },
+        "empty",
+        "empty",
+        {
+          "param": "Level",
+          "widget": "fader"
+        }
+      ]
+    }
+  ]
+}

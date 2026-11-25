@@ -1,0 +1,17 @@
+{
+  "name": "Stutter",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxSt",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Creative",
+  "file32": "VST/fx-stutter-arm32.so",
+  "file64": "VST/fx-stutter-arm64.so",
+  "description": "Beat-repeat stutter synced to the MPC tempo.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

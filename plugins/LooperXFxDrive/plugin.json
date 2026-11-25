@@ -1,0 +1,17 @@
+{
+  "name": "Drive",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxDr",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Distortion",
+  "file32": "VST/fx-drive-arm32.so",
+  "file64": "VST/fx-drive-arm64.so",
+  "description": "Soft, hard, wavefold and tube saturation with tone control.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

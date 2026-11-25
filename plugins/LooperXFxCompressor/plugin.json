@@ -1,0 +1,17 @@
+{
+  "name": "Compressor",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxCo",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Dynamics",
+  "file32": "VST/fx-compressor-arm32.so",
+  "file64": "VST/fx-compressor-arm64.so",
+  "description": "Feed-forward compressor with soft knee, makeup gain and parallel mix.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

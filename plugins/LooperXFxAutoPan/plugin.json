@@ -1,0 +1,17 @@
+{
+  "name": "Auto Pan",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxAp",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Modulation",
+  "file32": "VST/fx-autopan-arm32.so",
+  "file64": "VST/fx-autopan-arm64.so",
+  "description": "Auto-panner synced to the MPC tempo or free.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

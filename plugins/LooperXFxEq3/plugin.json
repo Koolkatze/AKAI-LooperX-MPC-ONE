@@ -1,0 +1,17 @@
+{
+  "name": "EQ 3-Band",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxEq",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "EQ",
+  "file32": "VST/fx-eq3-arm32.so",
+  "file64": "VST/fx-eq3-arm64.so",
+  "description": "Three-band EQ: low shelf, mid peak and high shelf with adjustable frequencies.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Pads",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "instrument",
+  "uid": "LxPd",
+  "numInputs": 0,
+  "numOutputs": 2,
+  "category": "Controller",
+  "file32": "VST/pads-arm32.so",
+  "file64": "VST/pads-arm64.so",
+  "description": "Controls LooperX Looper from the MPC pads or external MIDI (notes and CCs): bank A = LOOP 1-16, B = STOP, C = CLEAR, D = Stop All / Undo. Shows every loop's state. Makes no sound. Experimental link between plugins.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

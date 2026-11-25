@@ -1,0 +1,17 @@
+{
+  "name": "Reverb",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxRv",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Reverb",
+  "file32": "VST/fx-reverb-arm32.so",
+  "file64": "VST/fx-reverb-arm64.so",
+  "description": "Stereo algorithmic reverb with size, damping, width, pre-delay and low cut.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

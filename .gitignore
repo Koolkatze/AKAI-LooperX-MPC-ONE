@@ -1,0 +1,16 @@
+# Build outputs (per plugin project)
+build/
+dist/
+
+# Locally installed toolchain helpers (zig venv, host_sim binary, docker marker)
+.sdk-tools/
+
+# LooperX: the plugin projects in plugins/ ARE the content of this repository (tracked)
+
+# Python
+__pycache__/
+*.pyc
+
+# OS cruft
+.DS_Store
+Thumbs.db

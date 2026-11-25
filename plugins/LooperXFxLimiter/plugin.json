@@ -1,0 +1,17 @@
+{
+  "name": "Limiter",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxLi",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Dynamics",
+  "file32": "VST/fx-limiter-arm32.so",
+  "file64": "VST/fx-limiter-arm64.so",
+  "description": "Brickwall-style peak limiter with ceiling, release and input gain.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

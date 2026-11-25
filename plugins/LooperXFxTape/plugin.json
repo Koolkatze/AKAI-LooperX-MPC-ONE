@@ -1,0 +1,17 @@
+{
+  "name": "Tape",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxTp",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Creative",
+  "file32": "VST/fx-tape-arm32.so",
+  "file64": "VST/fx-tape-arm64.so",
+  "description": "Tape emulation: wow, flutter, saturation, tone and hiss.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

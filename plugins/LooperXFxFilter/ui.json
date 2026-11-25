@@ -1,0 +1,43 @@
+{
+  "kit": {
+    "theme": "cyan",
+    "accent": "ffff6a1a"
+  },
+  "qlinkGroups": "rows",
+  "style": {
+    "background": "ff141417"
+  },
+  "pages": [
+    {
+      "name": "MAIN",
+      "controls": [
+        {
+          "param": "Type",
+          "widget": "switch"
+        },
+        {
+          "param": "Cutoff",
+          "widget": "knob"
+        },
+        {
+          "param": "Reso",
+          "widget": "knob"
+        },
+        {
+          "param": "Drive",
+          "widget": "knob"
+        },
+        {
+          "param": "Mix",
+          "widget": "knob"
+        },
+        "empty",
+        "empty",
+        {
+          "param": "Level",
+          "widget": "fader"
+        }
+      ]
+    }
+  ]
+}

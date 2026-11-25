@@ -1,0 +1,366 @@
+{
+  "kit": {
+    "theme": "amber",
+    "accent": "ffff6a1a"
+  },
+  "qlinkGroups": "columns",
+  "pages": [
+    {
+      "name": "L 1-4",
+      "controls": [
+        {
+          "param": "LOOP 1",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 2",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 3",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 4",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 1",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 2",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 3",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 4",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 1",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 2",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 3",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 4",
+          "widget": "switch"
+        },
+        {
+          "param": "VOL 1",
+          "widget": "fader"
+        },
+        {
+          "param": "VOL 2",
+          "widget": "fader"
+        },
+        {
+          "param": "VOL 3",
+          "widget": "fader"
+        },
+        {
+          "param": "VOL 4",
+          "widget": "fader"
+        }
+      ]
+    },
+    {
+      "name": "L 5-8",
+      "controls": [
+        {
+          "param": "LOOP 5",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 6",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 7",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 8",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 5",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 6",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 7",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 8",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 5",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 6",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 7",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 8",
+          "widget": "switch"
+        },
+        {
+          "param": "VOL 5",
+          "widget": "fader"
+        },
+        {
+          "param": "VOL 6",
+          "widget": "fader"
+        },
+        {
+          "param": "VOL 7",
+          "widget": "fader"
+        },
+        {
+          "param": "VOL 8",
+          "widget": "fader"
+        }
+      ]
+    },
+    {
+      "name": "L 9-12",
+      "controls": [
+        {
+          "param": "LOOP 9",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 10",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 11",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 12",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 9",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 10",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 11",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 12",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 9",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 10",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 11",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 12",
+          "widget": "switch"
+        },
+        {
+          "param": "VOL 9",
+          "widget": "fader"
+        },
+        {
+          "param": "VOL 10",
+          "widget": "fader"
+        },
+        {
+          "param": "VOL 11",
+          "widget": "fader"
+        },
+        {
+          "param": "VOL 12",
+          "widget": "fader"
+        }
+      ]
+    },
+    {
+      "name": "L 13-16",
+      "controls": [
+        {
+          "param": "LOOP 13",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 14",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 15",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 16",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 13",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 14",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 15",
+          "widget": "switch"
+        },
+        {
+          "param": "STOP 16",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 13",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 14",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 15",
+          "widget": "switch"
+        },
+        {
+          "param": "CLEAR 16",
+          "widget": "switch"
+        },
+        {
+          "param": "VOL 13",
+          "widget": "fader"
+        },
+        {
+          "param": "VOL 14",
+          "widget": "fader"
+        },
+        {
+          "param": "VOL 15",
+          "widget": "fader"
+        },
+        {
+          "param": "VOL 16",
+          "widget": "fader"
+        }
+      ]
+    },
+    {
+      "name": "SETUP",
+      "controls": [
+        {
+          "param": "Length",
+          "widget": "knob"
+        },
+        {
+          "param": "Stop All",
+          "widget": "switch"
+        },
+        {
+          "param": "Monitor",
+          "widget": "fader"
+        },
+        {
+          "param": "Export WAV",
+          "widget": "switch"
+        },
+        {
+          "param": "Quantize",
+          "widget": "switch"
+        },
+        {
+          "param": "Clear All",
+          "widget": "switch"
+        },
+        {
+          "param": "Output",
+          "widget": "fader"
+        },
+        {
+          "param": "Export To",
+          "widget": "switch"
+        },
+        {
+          "param": "After Rec",
+          "widget": "switch"
+        },
+        {
+          "param": "Undo",
+          "widget": "switch"
+        },
+        {
+          "param": "Sync",
+          "widget": "switch"
+        },
+        {
+          "param": "Loop Mem",
+          "widget": "knob"
+        },
+        {
+          "param": "Dub Level",
+          "widget": "fader"
+        },
+        {
+          "param": "Live Status",
+          "widget": "switch"
+        },
+        {
+          "param": "MPC Stop",
+          "widget": "switch"
+        },
+        {
+          "param": "Link Pads",
+          "widget": "switch"
+        }
+      ]
+    },
+    {
+      "name": "MORE",
+      "controls": [
+        {
+          "param": "Late Press",
+          "widget": "knob"
+        }
+      ]
+    }
+  ],
+  "style": {
+    "background": "ff141417"
+  }
+}

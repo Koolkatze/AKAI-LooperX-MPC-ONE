@@ -1,0 +1,19 @@
+{
+  "momentary": [
+    "Rescan"
+  ],
+  "liveText": [
+    "File",
+    "Slot"
+  ],
+  "continuous": [
+    "File",
+    "Slot"
+  ],
+  "steps": {
+    "Root Key": 73,
+    "Pitch": 49,
+    "Voices": 16,
+    "Bend Rng": 25
+  }
+}

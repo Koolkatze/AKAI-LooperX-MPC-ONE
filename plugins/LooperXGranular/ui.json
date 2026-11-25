@@ -1,0 +1,153 @@
+{
+  "kit": {
+    "theme": "violet",
+    "accent": "ffff6a1a"
+  },
+  "qlinkGroups": "rows",
+  "style": {
+    "background": "ff141417"
+  },
+  "pages": [
+    {
+      "name": "GRAIN",
+      "controls": [
+        {
+          "param": "Position",
+          "widget": "knob"
+        },
+        {
+          "param": "Size",
+          "widget": "knob"
+        },
+        {
+          "param": "Density",
+          "widget": "knob"
+        },
+        {
+          "param": "Spray",
+          "widget": "knob"
+        },
+        {
+          "param": "Pitch",
+          "widget": "knob"
+        },
+        {
+          "param": "Fine",
+          "widget": "knob"
+        },
+        {
+          "param": "Pitch Rnd",
+          "widget": "knob"
+        },
+        {
+          "param": "Reverse",
+          "widget": "fader"
+        },
+        {
+          "param": "Scan",
+          "widget": "knob"
+        },
+        {
+          "param": "Spread",
+          "widget": "fader"
+        },
+        {
+          "param": "Window",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Freeze",
+          "widget": "switch"
+        },
+        {
+          "param": "Source",
+          "widget": "switch"
+        },
+        {
+          "param": "File",
+          "widget": "knob"
+        },
+        {
+          "param": "Slot",
+          "widget": "knob"
+        },
+        {
+          "param": "Rescan",
+          "widget": "switch"
+        }
+      ]
+    },
+    {
+      "name": "AMP",
+      "controls": [
+        {
+          "param": "Attack",
+          "widget": "knob"
+        },
+        {
+          "param": "Decay",
+          "widget": "knob"
+        },
+        {
+          "param": "Sustain",
+          "widget": "fader"
+        },
+        {
+          "param": "Release",
+          "widget": "knob"
+        },
+        {
+          "param": "Cutoff",
+          "widget": "knob"
+        },
+        {
+          "param": "Reso",
+          "widget": "knob"
+        },
+        {
+          "param": "Gain",
+          "widget": "fader"
+        },
+        {
+          "param": "Velocity",
+          "widget": "fader"
+        },
+        {
+          "param": "LFO Rate",
+          "widget": "knob"
+        },
+        {
+          "param": "LFO>Pos",
+          "widget": "knob"
+        },
+        {
+          "param": "Voices",
+          "widget": "knob"
+        },
+        {
+          "param": "Keys",
+          "widget": "switch"
+        },
+        {
+          "param": "Root Key",
+          "widget": "knob"
+        },
+        {
+          "param": "Bend Rng",
+          "widget": "knob"
+        },
+        {
+          "param": "AT>",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Mod>",
+          "widget": "knob",
+          "overlay": "menu"
+        }
+      ]
+    }
+  ]
+}

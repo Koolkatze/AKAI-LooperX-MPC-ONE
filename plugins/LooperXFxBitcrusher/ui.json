@@ -1,0 +1,34 @@
+{
+  "kit": {
+    "theme": "amber",
+    "accent": "ffff6a1a"
+  },
+  "qlinkGroups": "rows",
+  "style": {
+    "background": "ff141417"
+  },
+  "pages": [
+    {
+      "name": "MAIN",
+      "controls": [
+        {
+          "param": "Bits",
+          "widget": "knob"
+        },
+        {
+          "param": "Downsample",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Mix",
+          "widget": "knob"
+        },
+        {
+          "param": "Level",
+          "widget": "fader"
+        }
+      ]
+    }
+  ]
+}

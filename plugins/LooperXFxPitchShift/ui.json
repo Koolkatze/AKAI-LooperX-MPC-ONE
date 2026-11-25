@@ -1,0 +1,33 @@
+{
+  "kit": {
+    "theme": "lime",
+    "accent": "ffff6a1a"
+  },
+  "qlinkGroups": "rows",
+  "style": {
+    "background": "ff141417"
+  },
+  "pages": [
+    {
+      "name": "MAIN",
+      "controls": [
+        {
+          "param": "Semitones",
+          "widget": "knob"
+        },
+        {
+          "param": "Window",
+          "widget": "knob"
+        },
+        {
+          "param": "Mix",
+          "widget": "knob"
+        },
+        {
+          "param": "Level",
+          "widget": "fader"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "kit": {
+    "theme": "mono",
+    "accent": "ffff6a1a"
+  },
+  "qlinkGroups": "rows",
+  "style": {
+    "background": "ff141417"
+  },
+  "pages": [
+    {
+      "name": "MAIN",
+      "controls": [
+        {
+          "param": "Width",
+          "widget": "knob"
+        },
+        {
+          "param": "BassMono",
+          "widget": "knob"
+        },
+        {
+          "param": "Output",
+          "widget": "knob"
+        },
+        {
+          "param": "Level",
+          "widget": "fader"
+        }
+      ]
+    }
+  ]
+}

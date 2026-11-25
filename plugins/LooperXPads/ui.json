@@ -1,0 +1,125 @@
+{
+  "kit": {
+    "theme": "amber",
+    "accent": "ffff6a1a"
+  },
+  "qlinkGroups": "rows",
+  "style": {
+    "background": "ff141417"
+  },
+  "pages": [
+    {
+      "name": "PADS",
+      "controls": [
+        {
+          "param": "LOOP 1",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 2",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 3",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 4",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 5",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 6",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 7",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 8",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 9",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 10",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 11",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 12",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 13",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 14",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 15",
+          "widget": "switch"
+        },
+        {
+          "param": "LOOP 16",
+          "widget": "switch"
+        }
+      ]
+    },
+    {
+      "name": "SETUP",
+      "controls": [
+        {
+          "param": "Base Note",
+          "widget": "knob"
+        },
+        {
+          "param": "Learn",
+          "widget": "switch"
+        },
+        {
+          "param": "Channel",
+          "widget": "knob"
+        },
+        {
+          "param": "Layout",
+          "widget": "switch"
+        },
+        {
+          "param": "Active",
+          "widget": "switch"
+        },
+        {
+          "param": "CC Ctrl",
+          "widget": "switch"
+        },
+        {
+          "param": "Status",
+          "widget": "switch"
+        },
+        "empty",
+        {
+          "param": "Stop All",
+          "widget": "switch"
+        },
+        {
+          "param": "Undo",
+          "widget": "switch"
+        },
+        "empty",
+        "empty"
+      ]
+    }
+  ]
+}

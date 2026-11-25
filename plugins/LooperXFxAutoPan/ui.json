@@ -1,0 +1,44 @@
+{
+  "kit": {
+    "theme": "violet",
+    "accent": "ffff6a1a"
+  },
+  "qlinkGroups": "rows",
+  "style": {
+    "background": "ff141417"
+  },
+  "pages": [
+    {
+      "name": "MAIN",
+      "controls": [
+        {
+          "param": "Sync",
+          "widget": "switch"
+        },
+        {
+          "param": "Division",
+          "widget": "knob",
+          "overlay": "menu"
+        },
+        {
+          "param": "Rate",
+          "widget": "knob"
+        },
+        {
+          "param": "Depth",
+          "widget": "knob"
+        },
+        {
+          "param": "Shape",
+          "widget": "switch"
+        },
+        "empty",
+        "empty",
+        {
+          "param": "Level",
+          "widget": "fader"
+        }
+      ]
+    }
+  ]
+}

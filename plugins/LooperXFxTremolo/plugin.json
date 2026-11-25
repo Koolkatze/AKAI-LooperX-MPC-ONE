@@ -1,0 +1,17 @@
+{
+  "name": "Tremolo",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxTr",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Modulation",
+  "file32": "VST/fx-tremolo-arm32.so",
+  "file64": "VST/fx-tremolo-arm64.so",
+  "description": "Tremolo synced to the MPC tempo or free, sine/square/triangle.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

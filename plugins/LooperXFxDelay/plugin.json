@@ -1,0 +1,17 @@
+{
+  "name": "Delay",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxDl",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Delay",
+  "file32": "VST/fx-delay-arm32.so",
+  "file64": "VST/fx-delay-arm64.so",
+  "description": "Stereo delay synced to the MPC tempo (or free), ping-pong and feedback filters.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

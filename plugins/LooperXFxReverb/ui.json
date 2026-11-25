@@ -1,0 +1,46 @@
+{
+  "kit": {
+    "theme": "cyan",
+    "accent": "ffff6a1a"
+  },
+  "qlinkGroups": "rows",
+  "style": {
+    "background": "ff141417"
+  },
+  "pages": [
+    {
+      "name": "MAIN",
+      "controls": [
+        {
+          "param": "Size",
+          "widget": "knob"
+        },
+        {
+          "param": "Damp",
+          "widget": "knob"
+        },
+        {
+          "param": "Width",
+          "widget": "knob"
+        },
+        {
+          "param": "PreDelay",
+          "widget": "knob"
+        },
+        {
+          "param": "LowCut",
+          "widget": "knob"
+        },
+        {
+          "param": "Mix",
+          "widget": "knob"
+        },
+        "empty",
+        {
+          "param": "Level",
+          "widget": "fader"
+        }
+      ]
+    }
+  ]
+}

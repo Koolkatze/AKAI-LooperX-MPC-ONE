@@ -1,0 +1,17 @@
+{
+  "name": "Filter",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxFi",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Filter",
+  "file32": "VST/fx-filter-arm32.so",
+  "file64": "VST/fx-filter-arm64.so",
+  "description": "Multimode SVF filter (LP/HP/BP/notch) with drive and mix.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Pitch Shift",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxPs",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Pitch",
+  "file32": "VST/fx-pitchshift-arm32.so",
+  "file64": "VST/fx-pitchshift-arm64.so",
+  "description": "Two-head granular pitch shifter, +/-24 semitones.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

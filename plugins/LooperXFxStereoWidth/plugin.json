@@ -1,0 +1,17 @@
+{
+  "name": "Stereo Width",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxSw",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Utility",
+  "file32": "VST/fx-stereowidth-arm32.so",
+  "file64": "VST/fx-stereowidth-arm64.so",
+  "description": "Mid/side stereo width with mono bass.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

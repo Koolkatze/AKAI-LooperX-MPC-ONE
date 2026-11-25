@@ -1,0 +1,135 @@
+LooperX para MPC  ·  v1.0.0  ·  22 plugins externos oficiales (SDK de Akai, licencia MIT)
+==========================================================================================
+
+Qué hay en el zip
+-----------------
+  VST2 Plugins/                       <- copia esta carpeta TAL CUAL a la raíz de la SD o del USB
+    LooperX - VST - Looper            looper de pedal de 16 pistas (efecto de inserción)
+    LooperX - VST - Pads              dispara el Looper con los pads o MIDI externo (instrumento, sin sonido)
+    LooperX - VST - Granular          sintetizador granular (instrumento)
+    LooperX - VST - <efecto> (x19)    Filter, EQ 3-Band, Compressor, Limiter, Gate, Delay, Reverb,
+                                      Chorus, Flanger, Phaser, Drive, Bitcrusher, Tremolo, Auto Pan,
+                                      Ring Mod, Stereo Width, Stutter, Pitch Shift, Tape
+  LooperX/Samples/                    (opcional) pon aquí tus WAV para el Granular
+  LooperX/Loops/                      aquí exporta el Looper sus loops en WAV (y el Granular los ve)
+
+Cada plugin trae su versión de 32 bits (MPC One "normal", Live, X) y de 64 bits (One+, Live II/III...).
+
+
+1. Requisitos e instalación
+---------------------------
+  1. MPC OS 3.10.1 o posterior (Preferences > Info muestra la versión).
+  2. En el MPC: Preferences > Enhancements (Beta) > activa "Enable Enhancements" y
+     "External Plugin Support".
+  3. Copia la carpeta "VST2 Plugins" a la raíz de la SD (o de un USB, o del disco interno).
+     Copia también la carpeta "LooperX" a la raíz de la misma unidad.
+     Debe quedar:  <SD>/VST2 Plugins/LooperX - VST - Looper/plugin.json  (etc.)
+  4. Mete la SD (o reinicia el MPC si no aparecen). Los plugins salen en el navegador de plugins,
+     en "External Plugins", con el fabricante "LooperX".
+
+  No hace falta arrancar nada desde la SD ni tocar el sistema: es la vía oficial de Akai.
+  Para desinstalar, borra las carpetas "LooperX - VST - ..." de "VST2 Plugins".
+
+  IMPORTANTE: Akai/inMusic no da soporte a plugins de terceros. Un plugin corre dentro del MPC y
+  un fallo puede colgarlo. Estos plugins están probados en el simulador del SDK y con pruebas
+  propias, pero NO en un MPC real todavía: guarda a menudo y pruébalos antes de un directo.
+
+
+2. Montaje recomendado (MPC One)
+--------------------------------
+  Pista 1 - AUDIO, entrada Input 1/2 (o la que uses), monitor activado.
+            Insert: LooperX > Looper.   Lo que entra por esa entrada es lo que se graba.
+
+  Pista 2 - PLUGIN: LooperX > Pads.   Con esta pista seleccionada, los pads disparan los loops.
+
+  Pista 3 - PLUGIN: LooperX > Granular.   Con esta pista seleccionada, los pads tocan el granular.
+
+  Para grabar también el granular (o cualquier otra pista) como loop SIN parar los demás:
+    pon el Looper como insert en un SUBMIX en vez de en la pista 1, y manda a ese submix la pista
+    de entrada y la del Granular. Pulsa un LOOP vacío y graba lo que suena en el submix.
+    (Los loops que ya suenan no se vuelven a grabar: el Looper graba su entrada, antes de los loops.)
+    Si quieres grabar solo el granular, manda la pista de entrada directamente al máster.
+
+  Tocar el granular y disparar loops a la vez: asigna un controlador/pedalera MIDI externo a la
+  pista de Pads (por canal MIDI) y deja los pads del MPC en la pista del Granular.
+
+  Tempo, tap tempo, metrónomo, compás, mezclador, submixes y máster: son los del propio MPC.
+  El Looper los sigue (tempo, compases, play/stop). Los 19 efectos LooperX y todos los del MPC se
+  pueden poner en cualquier pista, en los submixes y en el máster.
+
+
+3. LooperX Looper (efecto)
+--------------------------
+  Páginas L 1-4, L 5-8, L 9-12, L 13-16 - cada columna es una pista de loop:
+    LOOP n   vacío -> espera al compás (WAIT) -> graba (REC) -> otra pulsación cierra el loop
+             (PLAY) -> otra = sobregrabar (DUB) -> otra = PLAY ...
+    STOP n   para / arranca (cuantizado). Muestra STOP / START.
+    CLEAR n  borra: 1ª pulsación "SURE?", 2ª (en 3 s) borra.
+    VOL n    volumen de esa pista.
+    El texto de LOOP n es el estado: EMPTY, WAIT, REC 3.2, PLAY 2b (2 compases), DUB, STOP,
+    >PLAY / >STOP (esperando al compás), CLEAR?.
+  Página SETUP:
+    Length     AUTO (lo marca tu segunda pulsación) o fijo: 4/4 = 1 compás, 4/8, 4/16, 4/24...
+               (4/N = N negras). Con largo fijo el loop se cierra solo.
+    Quantize   Bar (al compás), Beat (al tiempo) o Free (al instante, largo libre).
+    After Rec  al cerrar: Play o seguir en Dub.
+    Dub Level  cuánto se conserva de lo anterior en cada sobregrabación (100% = nada se pierde).
+    Stop All / Clear All (dos pulsaciones) / Undo (deshace/rehace la última sobregrabación).
+    Monitor    cuánto de la entrada se oye directo.   Output: volumen general.
+    Export WAV guarda todos los loops como WAV 24 bits en  <unidad>/LooperX/Loops
+    Export To  SD/USB o MPC ONE (disco interno).
+    Loop Mem   RAM para loops: 16-256 MB (muestra segundos libres; "*" = se aplica al vaciar).
+    Sync       MPC (sigue el tempo/compás del MPC) o Free.   MPC Stop: Stops / Keeps (al parar
+               el MPC los loops se paran o siguen). Al dar PLAY en el MPC los loops vuelven al inicio.
+    Live Status refresca el texto de estado en pantalla.   Link Pads: enlace con Pads/Granular.
+  Página MORE:
+    Late Press  si pulsas LOOP un poco tarde (hasta 250 ms) se graba desde el compás igualmente.
+  Los loops se guardan DENTRO del proyecto del MPC (y vuelven al abrirlo).
+  Los Q-Links también funcionan: girar el de un LOOP/STOP/CLEAR cuenta como pulsación.
+
+
+4. LooperX Pads (instrumento, no suena)
+---------------------------------------
+  Desde "Base Note" (por defecto C1 = nota 36; usa LEARN y golpea el pad que quieras como LOOP 1):
+    Banco A (16 pads) = LOOP 1-16
+    Banco B           = STOP 1-16
+    Banco C           = CLEAR 1-16 (dos golpes)
+    Banco D           = D01 STOP ALL, D02 UNDO
+  "Layout 1 BANK" usa solo el banco A.
+  Pedaleras/controladores por CC (valor >= 64): CC102-117 = LOOP 1-16, CC118 = STOP ALL, CC119 = UNDO.
+  Channel: ALL o un canal concreto.   La pantalla PADS muestra el estado de cada loop y sus botones
+  también los disparan.   Status: LINKED / NO LOOPER.
+
+
+5. LooperX Granular (instrumento)
+---------------------------------
+  Source  FILE: un WAV de fábrica (7 sonidos propios), de <unidad>/LooperX/Samples o los loops
+                exportados en <unidad>/LooperX/Loops (SD/USB y disco interno). "Rescan" relee las carpetas.
+          LOOPER: una pista viva del Looper (Slot 1-16), incluso mientras se sobregraba.
+  GRAIN:  Position, Size, Density, Spray, Pitch, Fine, Pitch Rnd, Reverse, Scan, Spread, Window, Freeze.
+  AMP:    Attack, Decay, Sustain, Release, Cutoff, Reso, Gain, Velocity, LFO Rate, LFO>Pos,
+          Voices (1-16), Keys, Root Key, Bend Rng, AT>, Mod>.
+  Keys    PITCH: la nota cambia el tono (Root Key suena original).
+          POSITION: cada pad elige una de 16 zonas del sonido (pads como "slices").
+  MIDI: velocidad, aftertouch polifónico de los pads y de canal (AT> elige destino), pitch bend,
+  rueda de modulación CC1 (Mod> elige destino), sustain CC64, CC120/CC123.
+  Presets: Init Cloud, Pad Slicer, Frozen Drone, Glitter Spray, Live Loop 1.
+
+
+6. Límites (lo que el sistema de plugins del MPC no permite)
+-----------------------------------------------------------
+  * Un plugin no puede encender ni colorear los pads: el estado de cada loop se ve en la pantalla.
+  * No hay pantallas propias ni forma de onda: la interfaz son páginas de controles (skins).
+  * Los efectos no reciben MIDI; por eso Pads es un instrumento aparte.
+  * Pads/Granular hablan con el Looper por memoria compartida dentro del MPC. Eso no está en la
+    documentación de Akai: es EXPERIMENTAL. Si fallara, el Looper sigue funcionando solo desde su
+    pantalla y el Granular con WAV.
+  * 16 loops por Looper (no 64). Puedes poner más Loopers; solo uno se enlaza con Pads.
+  * Cambiar el tempo con loops grabados los acelera/frena (cambia también el tono).
+  * Los loops viven en la RAM (Loop Mem) y en el proyecto; para tenerlos como archivos, Export WAV.
+  * Live Status pide al MPC que refresque los textos de estado. Que el MPC los redibuje solo no
+    está documentado: si en tu MPC no se actualizan, se actualizan al tocar la página; si la página
+    parpadea o molesta, apaga Live Status.
+
+
+Licencia MIT · Antonio (LooperX) · código fuente en LooperX_MPC_source.zip

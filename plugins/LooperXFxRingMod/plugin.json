@@ -1,0 +1,17 @@
+{
+  "name": "Ring Mod",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxRm",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Modulation",
+  "file32": "VST/fx-ringmod-arm32.so",
+  "file64": "VST/fx-ringmod-arm64.so",
+  "description": "Ring modulator.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

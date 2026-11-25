@@ -1,0 +1,46 @@
+{
+  "kit": {
+    "theme": "cyan",
+    "accent": "ffff6a1a"
+  },
+  "qlinkGroups": "rows",
+  "style": {
+    "background": "ff141417"
+  },
+  "pages": [
+    {
+      "name": "MAIN",
+      "controls": [
+        {
+          "param": "Low",
+          "widget": "knob"
+        },
+        {
+          "param": "LowFreq",
+          "widget": "knob"
+        },
+        {
+          "param": "Mid",
+          "widget": "knob"
+        },
+        {
+          "param": "MidFreq",
+          "widget": "knob"
+        },
+        {
+          "param": "High",
+          "widget": "knob"
+        },
+        {
+          "param": "HighFreq",
+          "widget": "knob"
+        },
+        "empty",
+        {
+          "param": "Level",
+          "widget": "fader"
+        }
+      ]
+    }
+  ]
+}

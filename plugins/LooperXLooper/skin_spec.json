@@ -1,0 +1,22 @@
+{
+  "momentary": [
+    "LOOP *",
+    "STOP *",
+    "CLEAR *",
+    "Stop All",
+    "Clear All",
+    "Undo",
+    "Export WAV"
+  ],
+  "liveText": [
+    "Link Pads",
+    "Loop Mem"
+  ],
+  "continuous": [
+    "Loop Mem"
+  ],
+  "steps": {
+    "Length": 129,
+    "Late Press": 251
+  }
+}

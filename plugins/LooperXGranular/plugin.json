@@ -1,0 +1,17 @@
+{
+  "name": "Granular",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "instrument",
+  "uid": "LxGr",
+  "numInputs": 0,
+  "numOutputs": 2,
+  "category": "Synth",
+  "file32": "VST/granular-arm32.so",
+  "file64": "VST/granular-arm64.so",
+  "description": "Polyphonic granular synth. Source: factory or your own WAV files (SD/USB and internal drive) or a live loop from LooperX Looper. Pads with poly aftertouch, keyboard, pitch bend, mod wheel and sustain.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

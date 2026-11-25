@@ -1,0 +1,17 @@
+{
+  "name": "Gate",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxGa",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Dynamics",
+  "file32": "VST/fx-gate-arm32.so",
+  "file64": "VST/fx-gate-arm64.so",
+  "description": "Noise gate with attack, hold, release and range.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}

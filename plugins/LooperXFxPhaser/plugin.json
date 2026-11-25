@@ -1,0 +1,17 @@
+{
+  "name": "Phaser",
+  "manufacturer": "LooperX",
+  "version": "1.0.0",
+  "format": "vst2",
+  "kind": "effect",
+  "uid": "LxPh",
+  "numInputs": 2,
+  "numOutputs": 2,
+  "category": "Modulation",
+  "file32": "VST/fx-phaser-arm32.so",
+  "file64": "VST/fx-phaser-arm64.so",
+  "description": "4/6/8/12-stage phaser.",
+  "author": "Antonio (LooperX)",
+  "url": "",
+  "license": "MIT"
+}
